@@ -126,7 +126,7 @@ ul#menu > li > a {
 							<a class="dropdown-item" href="SLogin" style="text-align:right">사업자 로그인</a>
 						</div>
 					</li>
-					<li class="nav-item"><a class="nav-link" href="#">고객센터</a></li>
+					<li class="nav-item"><a class="nav-link" href="mypage">마이페이지</a></li>
 				</ul>
 			</div>
 		</nav>

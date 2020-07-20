@@ -13,15 +13,43 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title>사업자 로그인</title>
+<title>마이페이지</title>
+</head>
 <style>
 
-#b  {
-	padding-right: 400px;
-	padding-left: 400px;
-	margin-right: auto;
-	margin-left: auto;
-} 
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+/*the animation definition*/
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn
+}
+
+
 
 #a {
 	padding-right: 120px;
@@ -30,8 +58,26 @@
 	margin-left: auto;
 } 
 
+ #b {
+	padding-right: 120px;
+	padding-left: 120px;
+	margin-right: auto;
+	margin-left: auto;
+	
+} 
+
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+ul#menu > li > a {
+	font-size : 25 px;
+}
+
 </style>
-</head>
+
+
 
 <header>
 	<br>
@@ -76,65 +122,63 @@
 
 
 
-
 <body>
+<!-- 메뉴 바 ---------------------------------------------------------------------------------------------------------------------------------- -->
 
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			
-			
-			<a href="#"><img id="로고" src="images/로고.png" class="mx-auto d-block"></a>
-           <br>
-            <div id="b" class="container">
-            	 <div style="text-align:center"> 
-					<h3>사업자 로그인</h3>
-             	 </div>
-             	 <br>
-                <form action="main" role="form"  method="post">
-                    <div class="form-group">
-                        <label for="SELLER_ID">아이디</label>
-                        <input type="text" class="form-control" id="SELLER_ID" placeholder="아이디(이메일)를 입력해주세요" name="SELLER_ID">
-                    </div>
-                    <div class="form-group">
-                        <label for="SELLER_PW">비밀번호</label>
-                        <input type="password" class="form-control" id="SELLER_PW" placeholder="비밀번호를 입력해주세요" name="SELLER_PW">
-                    </div>
+	<div class="container" id="b">
+		<ul id="menu" class="nav nav-tabs nav-justified" >
+			<li class="nav-item"><a class="nav-link active" href="main" >Home</a></li>
+			<li class="nav-item"><a class="nav-link " data-toggle="tab"  id="shop" href="#">Shop</a></li>
+			<li class="nav-item"><a class="nav-link "  data-toggle="tab" id="About" href="#">About</a></li>
+			<li class="nav-item"><a class="nav-link "  data-toggle="tab" id="Notice" href="#" >Notice</a></li>
+		</ul>
+	</div>
+
+<!-- 메뉴 바 끝 ---------------------------------------------------------------------------------------------------------------------------------- -->
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
 
 
-					
-					<a href="#">아이디/비밀번호 찾기</a>
-					<br/>
-				
-                    <div class="form-group text-center">
-                        <button type="submit" id="join-submit" class="btn btn-primary btn-block">
-                			 로그인<i class="fa fa-check spaceLeft"></i>
-                        </button>
-                        
-                        <!-- 카카오로그인 버튼 바꿔야됨 -->
-                        
-                          <button type="submit" class="btn btn-warning btn-block" >카카오계정으로 로그인</button>
-                          
-                        <!-- 카카오로그인 버튼 바꿔야됨 -->
-      				</div>
-                </form>
-            </div>
-            <br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+<div class="container" id="b">
 
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
+</div>
+
+
+
+
+<!-- 하단-------------------------------------------------------------------------------------------------------------------- -->
+	<div class="jumbotron text-center" style="margin-bottom: 0">
+		<a href="map">사업장 위치</a>
+	</div>
+	
+	
+	
+<!-- 하단 끝------------------------------------------------------------------------------------------------------------------- -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

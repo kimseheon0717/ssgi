@@ -21,6 +21,11 @@ public class HomeController {
     public String main1() {
     return "main/main"; 
     }
+    
+    @RequestMapping("mypage") 
+    public String mypage() {
+    return "mypage"; 
+    }
 	@RequestMapping("main")
 	public String main() {
 

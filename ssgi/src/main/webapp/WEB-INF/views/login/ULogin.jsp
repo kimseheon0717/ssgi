@@ -35,12 +35,12 @@
 </head>
 
 <header>
-
+	<br>
 	<div id="a" class="container" >
 		<nav class="navbar navbar-expand-md navbar-light">
 		
 			<!-- 로고 이미지 -->
-			<a href="main"><img src="images/로고.png"></a>
+			<a href="main"><img id="sizzang"src="images/로고.png"></a>
 			<!-- 로고 이미지 -->
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -59,17 +59,22 @@
 						</div>
 					</li>
 					<li class="nav-item dropdown">
-					<a class="nav-link " href="SLogin" >사업자 로그인</a>
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"> 로그인 </a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="ULogin" style="text-align:right">일반 로그인 </a> 
+							<a class="dropdown-item" href="SLogin" style="text-align:right">사업자 로그인</a>
+						</div>
 					</li>
 					<li class="nav-item"><a class="nav-link" href="#">고객센터</a></li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-
+	
 	<hr>
-	<br />
+	
 </header>
+
 
 
 
