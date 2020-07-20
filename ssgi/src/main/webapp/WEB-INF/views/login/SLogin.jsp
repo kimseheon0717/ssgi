@@ -39,7 +39,7 @@
 		<nav class="navbar navbar-expand-md navbar-light">
 		
 			<!-- 로고 이미지 -->
-			<a href="main"><img id="sizzang"src="images/로고.png"></a>
+			<a href="main"><img id="sizzang"src="images/천년가게.png"></a>
 			<!-- 로고 이미지 -->
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -86,7 +86,7 @@
 			<br>
 			
 			
-			<a href="#"><img id="로고" src="images/로고.png" class="mx-auto d-block"></a>
+			<a href="#"><img id="로고" src="images/천년가게.png" class="mx-auto d-block"></a>
            <br>
             <div id="b" class="container">
             	 <div style="text-align:center"> 

@@ -24,7 +24,19 @@ public class HomeController {
     
     @RequestMapping("mypage") 
     public String mypage() {
-    return "mypage"; 
+    return "mypage/mypage"; 
+    }
+    @RequestMapping("mypageQuestion") 
+    public String mypageQuestion() {
+    return "mypage/mypageQuestion"; 
+    }
+    @RequestMapping("myRv") 
+    public String myRv() {
+    return "mypage/myRv"; 
+    }
+    @RequestMapping("mypay") 
+    public String mypay() {
+    return "mypage/mypay"; 
     }
 	@RequestMapping("main")
 	public String main() {

@@ -85,7 +85,7 @@ ul#menu > li > a {
 		<nav class="navbar navbar-expand-md navbar-light">
 		
 			<!-- 로고 이미지 -->
-			<a href="main"><img id="sizzang"src="images/로고.png"></a>
+			<a href="main"><img id="sizzang" src="images/천년가게.png"></a>
 			<!-- 로고 이미지 -->
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -127,34 +127,60 @@ ul#menu > li > a {
 
 	<div class="container" id="b">
 		<ul id="menu" class="nav nav-tabs nav-justified" >
-			<li class="nav-item"><a class="nav-link active" href="main" >Home</a></li>
-			<li class="nav-item"><a class="nav-link " data-toggle="tab"  id="shop" href="#">Shop</a></li>
-			<li class="nav-item"><a class="nav-link "  data-toggle="tab" id="About" href="#">About</a></li>
-			<li class="nav-item"><a class="nav-link "  data-toggle="tab" id="Notice" href="#" >Notice</a></li>
+			<li class="nav-item"><a class="nav-link active" href="mypage" >계정관리</a></li>
+			<li class="nav-item"><a class="nav-link "  data-toggle="tab" id="mypay" href="mypay">구매내역</a></li>
+			<li class="nav-item"><a class="nav-link " data-toggle="tab"  id="myRv" href="myRv">내 글 보기</a></li>
+			<li class="nav-item"><a class="nav-link "  data-toggle="tab" id="mypageQuestion" href="mypageQuestion" >문의내역</a></li>
 		</ul>
 	</div>
 
 <!-- 메뉴 바 끝 ---------------------------------------------------------------------------------------------------------------------------------- -->
+<div  class="fadeIn animated">
+<section id="mypage">
+
+	<div class="container" id="b">
+		<br>
+		<div style="text-align: center">
+			<a href="#"><img id="로고" src="images/천년가게.png" class="mx-auto d-block"></a> <br>
+			<h3>계정관리</h3>
+			<hr>
+			<div class="container" id="b"></div>
+
+		</div>
+		<br> <a>이름: </a><br>
+		<br> <a>비밀번호: </a><br>
+		<br> <a>비밀번호 확인: </a><br>
+		<br> <a>연락처: </a><br>
+		<br> <a>집주소: </a><br>
+		<br> <a>이메일: </a><br>
+		
+		<hr>
+		<br>
+		<br>
+		<div style="text-align: right">
+		<button type="submit" class="btn btn-primary" >개인정보 수정</button>
+		</div>
+		
+		
+
+
+
+
+	
+
+	<br><br>
 <br><br>
 <br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
+		<div style="text-align: right">
+			<button type="submit" class="btn btn-warning" >회원탈퇴</button>
+		</div>
+	</div>
+	
+	
+	
+	
+	</section>
+	</div>
 <br><br>
 <br><br>
 <br><br>
@@ -163,12 +189,23 @@ ul#menu > li > a {
 <br><br>
 <br><br>
 
-
-<div class="container" id="b">
-
-</div>
-
-
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
 
 
 <!-- 하단-------------------------------------------------------------------------------------------------------------------- -->
@@ -184,4 +221,74 @@ ul#menu > li > a {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
+<script>
+$(document).ready(function(){
+	$("#myRv").click(function(e){
+		e.preventDefault();
+		$.ajax({
+			url : "myRv", 	//요청경로 데이타 스프링 mvc에서는 localhost:8080/ajax_ex02/data
+			cache : false,	//브라우저의 캐시여부 디폴트는 true
+ 			data : "", 		//서버로 보내는 데이터
+			dataType : "html",	//서버에서 반환되는 데이터
+			success : function(data){	//data 파라메터는 서버에서 성공시에 받는 데이터.
+				$("#mypage").html(data);	//jquery 의 html(html문서)는 선택된 엘리먼트에 로딩. 글자일땐 text
+			},
+			error : function(){
+				console.log(" fail : ");
+			},
+			complete : function(){
+				console.log(" always : ");
+			} 
+			
+		});
+	}).stop();
+});
+
+
+
+$(document).ready(function(){
+	$("#mypay").click(function(e){
+		e.preventDefault();
+		$.ajax({
+			url : "mypay", 	//요청경로 데이타 스프링 mvc에서는 localhost:8080/ajax_ex02/data
+			cache : false,	//브라우저의 캐시여부 디폴트는 true
+ 			data : "", 		//서버로 보내는 데이터
+			dataType : "html",	//서버에서 반환되는 데이터
+			success : function(data){	//data 파라메터는 서버에서 성공시에 받는 데이터.
+				$("#mypage").html(data);	//jquery 의 html(html문서)는 선택된 엘리먼트에 로딩. 글자일땐 text
+			},
+			error : function(){
+				console.log(" fail : ");
+			},
+			complete : function(){
+				console.log(" always : ");
+			} 
+			
+		});
+	}).stop();
+});
+
+
+$(document).ready(function(){
+	$("#mypageQuestion").click(function(e){
+		e.preventDefault();
+		$.ajax({
+			url : "mypageQuestion", 	//요청경로 데이타 스프링 mvc에서는 localhost:8080/ajax_ex02/data
+			cache : false,	//브라우저의 캐시여부 디폴트는 true
+ 			data : "", 		//서버로 보내는 데이터
+			dataType : "html",	//서버에서 반환되는 데이터
+			success : function(data){	//data 파라메터는 서버에서 성공시에 받는 데이터.
+				$("#mypage").html(data);	//jquery 의 html(html문서)는 선택된 엘리먼트에 로딩. 글자일땐 text
+			},
+			error : function(){
+				console.log(" fail : ");
+			},
+			complete : function(){
+				console.log(" always : ");
+			} 
+			
+		});
+	}).stop();
+});
+</script>
 </html>
