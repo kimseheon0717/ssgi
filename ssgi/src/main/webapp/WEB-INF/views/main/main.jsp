@@ -101,7 +101,7 @@ ul#menu > li > a {
 		<nav class="navbar navbar-expand-md navbar-light">
 		
 			<!-- 로고 이미지 -->
-			<a href="main"><img id="sizzang"src="images/로고.png"></a>
+			<a href="main"><img id="sizzang"src="images/천년시장.png"></a>
 			<!-- 로고 이미지 -->
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -212,7 +212,7 @@ ul#menu > li > a {
 				<div class="card bg-light">
 					<div class="card-body text-center">
 						<div class="card-body">
-							<img  src="images/로고.png">
+							<img  src="images/천년시장.png">
 							<a href="#" class="btn btn-primary">See Profile</a>
 						</div>
 					</div>
@@ -220,7 +220,7 @@ ul#menu > li > a {
 				<div class="card bg-light">
 					<div class="card-body text-center">
 						<div class="card-body">
-							<img  src="images/로고.png">
+							<img  src="images/천년시장.png">
 							<a href="#" class="btn btn-primary">See Profile</a>
 						</div>
 					</div>
@@ -228,7 +228,7 @@ ul#menu > li > a {
 				<div class="card bg-light">
 					<div class="card-body text-center">
 						<div class="card-body">
-							<img  src="images/로고.png">
+							<img  src="images/천년시장.png">
 							<a href="#" class="btn btn-primary">See Profile</a>
 						</div>
 					</div>
@@ -243,7 +243,7 @@ ul#menu > li > a {
 				<div class="card bg-light">
 					<div class="card-body text-center">
 						<div class="card-body">
-							<img  src="images/로고.png">
+							<img  src="images/천년시장.png">
 							<a href="#" class="btn btn-primary">See Profile</a>
 						</div>
 					</div>
@@ -251,7 +251,7 @@ ul#menu > li > a {
 				<div class="card bg-light">
 					<div class="card-body text-center">
 						<div class="card-body">
-							<img  src="images/로고.png">
+							<img  src="images/천년시장.png">
 							<a href="#" class="btn btn-primary">See Profile</a>
 						</div>
 					</div>
@@ -259,7 +259,7 @@ ul#menu > li > a {
 				<div class="card bg-light">
 					<div class="card-body text-center">
 						<div class="card-body">
-							<img  src="images/로고.png">
+							<img  src="images/천년시장.png">
 							<a href="#" class="btn btn-primary">See Profile</a>
 						</div>
 					</div>
@@ -275,7 +275,7 @@ ul#menu > li > a {
 				<div class="card bg-light">
 					<div class="card-body text-center">
 						<div class="card-body">
-							<img  src="images/로고.png">
+							<img  src="images/천년시장.png">
 							<a href="#" class="btn btn-primary">See Profile</a>
 						</div>
 					</div>
@@ -283,7 +283,7 @@ ul#menu > li > a {
 				<div class="card bg-light">
 					<div class="card-body text-center">
 						<div class="card-body">
-							<img  src="images/로고.png">
+							<img  src="images/천년시장.png">
 							<a href="#" class="btn btn-primary">See Profile</a>
 						</div>
 					</div>
@@ -291,7 +291,7 @@ ul#menu > li > a {
 				<div class="card bg-light">
 					<div class="card-body text-center">
 						<div class="card-body">
-							<img  src="images/로고.png">
+							<img  src="images/천년시장.png">
 							<a href="#" class="btn btn-primary">See Profile</a>
 						</div>
 					</div>
