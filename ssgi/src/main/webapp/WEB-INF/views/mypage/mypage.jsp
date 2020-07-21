@@ -128,9 +128,9 @@ ul#menu > li > a {
 	<div class="container" id="b">
 		<ul id="menu" class="nav nav-tabs nav-justified" >
 			<li class="nav-item"><a class="nav-link active" href="mypage" >계정관리</a></li>
-			<li class="nav-item"><a class="nav-link "  data-toggle="tab" id="mypay" href="mypay">구매내역</a></li>
-			<li class="nav-item"><a class="nav-link " data-toggle="tab"  id="myRv" href="myRv">내 글 보기</a></li>
-			<li class="nav-item"><a class="nav-link "  data-toggle="tab" id="mypageQuestion" href="mypageQuestion" >문의내역</a></li>
+			<li class="nav-item"><a class="nav-link "  data-toggle="tab" id="mypay" href="#">구매내역</a></li>
+			<li class="nav-item"><a class="nav-link " data-toggle="tab"  id="myRv" href="#">내 글 보기</a></li>
+			<li class="nav-item"><a class="nav-link "  data-toggle="tab" id="mypageQuestion" href="#" >문의내역</a></li>
 		</ul>
 	</div>
 
@@ -231,7 +231,8 @@ $(document).ready(function(){
  			data : "", 		//서버로 보내는 데이터
 			dataType : "html",	//서버에서 반환되는 데이터
 			success : function(data){	//data 파라메터는 서버에서 성공시에 받는 데이터.
-				$("#mypage").html(data);	//jquery 의 html(html문서)는 선택된 엘리먼트에 로딩. 글자일땐 text
+				$("#mypage").html(data);//jquery 의 html(html문서)는 선택된 엘리먼트에 로딩. 글자일땐 text
+				
 			},
 			error : function(){
 				console.log(" fail : ");
@@ -256,6 +257,7 @@ $(document).ready(function(){
 			dataType : "html",	//서버에서 반환되는 데이터
 			success : function(data){	//data 파라메터는 서버에서 성공시에 받는 데이터.
 				$("#mypage").html(data);	//jquery 의 html(html문서)는 선택된 엘리먼트에 로딩. 글자일땐 text
+				
 			},
 			error : function(){
 				console.log(" fail : ");
